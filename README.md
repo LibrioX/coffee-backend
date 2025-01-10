@@ -45,5 +45,7 @@ To run the backend locally, follow the steps below:
    php artisan migrate
 5. Create a symbolic link for storage:
    php artisan storage:link
-6. Run the development server:
+6. Create a new user account:
+   php artisan make:filament-user
+7. Run the development server:
    php artisan serve
